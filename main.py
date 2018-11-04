@@ -22,7 +22,7 @@ tkSnack.audio.play_gain(80)
 
 mysound = tkSnack.Sound()
 
-mysound.read('/home/pi/labscreen/Goat-noise.mp3')
+mysound.read('/home/pi/labscreen/sheep-human.wav')
 
 mysound.play()
 
