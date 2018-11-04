@@ -10,6 +10,9 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
+mpg321 -g 50 sheep-human.wav
+
+
 
 
 
