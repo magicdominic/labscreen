@@ -12,10 +12,11 @@ showPIL(pilImage)
 
 from pygame import mixer
 
-file = 'sheep-human.wav'
-mixer.init()
-mixer.music.load(file)
-mixer.music.play()
+file = '/home/pi/labscreen/sheep-human.wav'
+pygame.init()
+pygame.mixer.init()
+pygame.mixer.music.load(file)
+pygame.mixer.music.play()
 
 
 
