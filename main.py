@@ -10,7 +10,7 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-
+from tknsack import *
 s = Sound() 
 s.read('/home/pi/labscreen/Goat-noise.mp3') 
 s.play()
