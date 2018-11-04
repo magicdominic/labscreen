@@ -10,10 +10,17 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-from tkSnack import *
-s = Sound() 
-s.read('/home/pi/labscreen/Goat-noise.mp3') 
-s.play()
+from Tkinter import *
+root = Tk()
+
+import tkSnack
+tkSnack.initializeSnack(root)
+
+mysound = tkSnack.Sound()
+
+mysound.read('/home/pi/labscreen/Goat-noise.mp3')
+
+mysound.play()
 
 
 
