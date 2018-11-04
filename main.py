@@ -7,6 +7,8 @@ import os
 import pygame
 import time
 
+time.sleep(5)	
+
 file = '/home/pi/labscreen/sheep-human.wav'
 pygame.init()
 pygame.mixer.init()
