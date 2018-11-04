@@ -10,7 +10,7 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-from pygame import mixer
+import pygame
 
 file = '/home/pi/labscreen/sheep-human.wav'
 pygame.init()
