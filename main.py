@@ -10,7 +10,7 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-mpg321 -g 50 Goat-noise.mp3
+mpg321 Goat-noise.mp3
 
 
 
