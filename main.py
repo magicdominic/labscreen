@@ -6,7 +6,10 @@ import traceback
 import os
 import time
 
+from showpic import *
 
+pilImage = Image.open("zeitung.png")
+showPIL(pilImage)
 
 import pygame
 
