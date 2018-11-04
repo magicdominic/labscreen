@@ -15,7 +15,7 @@ def showPIL(pilImage):
     root.bind("<Escape>", lambda e: (e.widget.withdraw(), e.widget.quit()))
     canvas = tkinter.Canvas(root,width=w,height=h)
     canvas.pack()
-    canvas.configure(background='black')
+    canvas.configure(background='white')
     imgWidth, imgHeight = pilImage.size
     if imgWidth > w or imgHeight > h:
         ratio = min(w/imgWidth, h/imgHeight)
