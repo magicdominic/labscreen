@@ -10,21 +10,12 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-from Tkinter import *
-root = Tk()
+from pygame import mixer
 
-import tkSnack
-tkSnack.initializeSnack(root)
-
-
-tkSnack.audio.play_gain(80)
-
-
-mysound = tkSnack.Sound()
-
-mysound.read('/home/pi/labscreen/sheep-human.wav')
-
-mysound.play()
+file = 'sheep-human.wav'
+mixer.init()
+mixer.music.load(file)
+mixer.music.play()
 
 
 
