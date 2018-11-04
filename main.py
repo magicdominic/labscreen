@@ -7,7 +7,7 @@ import os
 
 from showpic import * 
 
-pilImage = Image.open("whitepix.jpg")
+pilImage = Image.open("whitepx.jpg")
 showPIL(pilImage)
 
 
