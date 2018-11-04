@@ -5,6 +5,8 @@ import signal
 import traceback
 import os
 
+from showpic import * 
+
 pilImage = Image.open("whitepix.jpg")
 showPIL(pilImage)
 
