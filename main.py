@@ -6,10 +6,6 @@ import traceback
 import os
 import time
 
-from showpic import *
-
-pilImage = Image.open("zeitung.png")
-showPIL(pilImage)
 
 import pygame
 
@@ -18,6 +14,13 @@ pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load(file)
 pygame.mixer.music.play()
+
+from showpic import *
+
+pilImage = Image.open("zeitung.png")
+showPIL(pilImage)
+
+
 
 time.sleep(5)
 
