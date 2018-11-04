@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/pi/labscreen/
+alias proj=" cd /home/pi/labscreen/"
 while [[ True ]]; do
     #statements
     python3 main.py
