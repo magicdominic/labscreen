@@ -16,6 +16,10 @@ root = Tk()
 import tkSnack
 tkSnack.initializeSnack(root)
 
+
+tkSnack.audio.play_gain(80)
+
+
 mysound = tkSnack.Sound()
 
 mysound.read('/home/pi/labscreen/Goat-noise.mp3')
