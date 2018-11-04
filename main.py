@@ -5,10 +5,7 @@ import signal
 import traceback
 import os
 
-from showpic import * 
 
-pilImage = Image.open("zeitung.png")
-showPIL(pilImage)
 
 import pygame
 
