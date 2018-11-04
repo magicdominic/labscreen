@@ -4,6 +4,7 @@ import curses
 import signal
 import traceback
 import os
+import time
 
 
 
@@ -15,6 +16,7 @@ pygame.mixer.init()
 pygame.mixer.music.load(file)
 pygame.mixer.music.play()
 
+time.sleep(5)
 
 
 """from app import Application, log
