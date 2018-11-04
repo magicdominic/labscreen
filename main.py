@@ -13,7 +13,7 @@ file = '/home/pi/labscreen/sheep-human.wav'
 pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load(file)
-pygame.mixer.music.play()
+pygame.mixer.music.play(loops=-1)
 
 from showpic import *
 
