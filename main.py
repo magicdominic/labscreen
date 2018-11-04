@@ -10,10 +10,10 @@ from showpic import *
 pilImage = Image.open("zeitung.png")
 showPIL(pilImage)
 
-mpg321 Goat-noise.mp3
 
-
-
+s = Sound() 
+s.read('/home/pi/labscreen/Goat-noise.mp3') 
+s.play()
 
 
 
