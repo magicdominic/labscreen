@@ -4,9 +4,11 @@ import curses
 import signal
 import traceback
 import os
-import sys
 
-from app import Application, log
+
+
+
+"""from app import Application, log
 
 # ignore CTRL+V keybinding
 #signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -52,4 +54,4 @@ if __name__ == '__main__':
         sys.exit(-1)
     else:
         log.info("exited cleanly")
-        sys.exit(0)
+        sys.exit(0)"""
