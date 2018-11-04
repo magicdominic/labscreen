@@ -5,6 +5,9 @@ import signal
 import traceback
 import os
 import pygame
+import time
+
+time.sleep(20)
 
 file = '/home/pi/labscreen/sheep-human.wav'
 pygame.init()
