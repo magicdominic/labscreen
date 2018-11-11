@@ -17,7 +17,7 @@ pygame.mixer.music.play(loops=-1)
 
 from showpic import *
 
-pilImage = Image.open("zeitung.png")
+pilImage = Image.open("Gefaessnamen_bildschirm.png")
 showPIL(pilImage)
 
 
