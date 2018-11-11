@@ -9,7 +9,7 @@ import time
 
 time.sleep(5)	
 
-file = '/home/pi/labscreen/sheep-human.wav'
+file = '/home/pi/labscreen/Labor_acht_drei_eins.wav'
 pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load(file)
