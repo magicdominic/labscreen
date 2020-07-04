@@ -1,0 +1,16 @@
+[Unit]
+Description=Start audio loop and image display service. 
+Wants=network-online.target
+After=network.target network-online.target rc-local.service
+[Service]
+ExecStart=/home/pi/labscreen/autorun.sh 
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+RestartSec=1
+DefaultStartLimitIntervalSec=0
+StartLimitBurst=99
+RuntimeMaxSec=600
+User=pi
+[Install]
+WantedBy=multi-user.target
