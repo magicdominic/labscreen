@@ -1,0 +1,15 @@
+[Unit]
+Description=Start audio loop service. 
+After=network.target rc-local.service
+[Service]
+ExecStart= /usr/bin/omxplayer -r --vol -2500 --loop -o both "/home/pi/labscreen/Labor_acht_drei_eins.wav"
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+RestartSec=2
+StartLimitBurst=99
+RuntimeMaxSec=600
+User=pi
+ExecStop=/usr/bin/killall omxplayer
+[Install]
+WantedBy=multi-user.target
